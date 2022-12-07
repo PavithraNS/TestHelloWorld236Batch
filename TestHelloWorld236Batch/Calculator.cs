@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestHelloWorld236Batch
 {
-    public class Calculator
+    class Calculator
     {
         public int AdditionTwoNumbers()
         {
-            int firstNumber=0, secondNumber=0;
+            int firstNumber = 0, secondNumber = 0;
 
             Console.WriteLine("Please enter 1st number");
             firstNumber = Convert.ToInt32(Console.ReadLine()); //"10" -> 10
@@ -20,11 +20,6 @@ namespace TestHelloWorld236Batch
             int result = firstNumber + secondNumber;
             //Console.WriteLine("Sum:"+result);
             return result;
-        }
-
-        public void Test()
-        {
-            AdditionTwoNumbers();
         }
     }
 }
