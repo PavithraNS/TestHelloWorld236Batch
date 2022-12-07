@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestHelloWorld236Batch
 {
-    class Calculator
+    public class Calculator
     {
-        public void AdditionTwoNumbers()
+        public int AdditionTwoNumbers()
         {
             int firstNumber=0, secondNumber=0;
 
@@ -18,7 +18,13 @@ namespace TestHelloWorld236Batch
             secondNumber = Convert.ToInt32(Console.ReadLine());
 
             int result = firstNumber + secondNumber;
-            Console.WriteLine("Sum:"+result);
+            //Console.WriteLine("Sum:"+result);
+            return result;
+        }
+
+        public void Test()
+        {
+            AdditionTwoNumbers();
         }
     }
 }

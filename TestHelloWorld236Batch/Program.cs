@@ -12,9 +12,14 @@ namespace TestHelloWorld236Batch
         {
             Console.WriteLine("HelloWorld");
             //className variable=new className()
-            Calculator calculator = new Calculator();
-            //"20" -> 20
-            calculator.AdditionTwoNumbers();
+            Calculator c = new Calculator();
+            //int sum = c.AdditionTwoNumbers();
+            Console.WriteLine("Sum of 2 numbers:{0}", c.AdditionTwoNumbers());
+            Console.WriteLine("enter user name");
+            string userName=Console.ReadLine();
+            Console.WriteLine("enter your batch name");
+            string batchName = Console.ReadLine();
+            Console.WriteLine("hello {0}, welcome to the {1} batch", userName, batchName);
             Console.ReadLine();
         }
     }
