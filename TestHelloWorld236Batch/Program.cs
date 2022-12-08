@@ -12,9 +12,12 @@ namespace TestHelloWorld236Batch
         {
             Console.WriteLine("HelloWorld");
             //className variable=new className()
-            Calculator calculator = new Calculator();
-            //"20" -> 20
-            calculator.AdditionTwoNumbers();
+            //Calculator calculator = new Calculator();
+            ////"20" -> 20
+            //calculator.AdditionTwoNumbers();
+            TypesOfVariables.StudentAge(1234567);
+            TypesOfVariables types = new TypesOfVariables();
+            TypesOfVariables typesOfVariables = new TypesOfVariables(234);
             Console.ReadLine();
         }
     }
