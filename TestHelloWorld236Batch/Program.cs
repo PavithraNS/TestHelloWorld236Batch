@@ -15,9 +15,22 @@ namespace TestHelloWorld236Batch
             //Calculator calculator = new Calculator();
             ////"20" -> 20
             //calculator.AdditionTwoNumbers();
-            TypesOfVariables.StudentAge(1234567);
-            TypesOfVariables types = new TypesOfVariables();
-            TypesOfVariables typesOfVariables = new TypesOfVariables(234);
+            //TypesOfVariables.StudentAge(1234567);
+            //TypesOfVariables types = new TypesOfVariables();
+            //TypesOfVariables typesOfVariables = new TypesOfVariables(234);
+
+            Marks obj1 = new Marks();
+            obj1.engMarks = 90;
+            obj1.mathsMarks = 80;
+            obj1.phyMarks = 93;
+            obj1.MarksDeatils();
+
+            // second object
+            Marks obj2 = new Marks();
+            obj2.engMarks = 95;
+            obj2.mathsMarks = 70;
+            obj2.phyMarks = 90;
+            obj2.MarksDeatils();
             Console.ReadLine();
         }
     }
