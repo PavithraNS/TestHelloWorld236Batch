@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestHelloWorld236Batch.BasicPrograms;
 
 namespace TestHelloWorld236Batch
 {
@@ -33,7 +34,10 @@ namespace TestHelloWorld236Batch
             //obj2.MarksDeatils();
 
             //StaticVariableConcept.number=23;
-            Console.WriteLine(StaticVariableConcept.number);
+            //Console.WriteLine(StaticVariableConcept.number);
+            Console.WriteLine("Please enter number");
+            int input = Convert.ToInt32(Console.ReadLine());
+            ReverseProgram.ReverseNumber(input);
             Console.ReadLine();
         }
     }
