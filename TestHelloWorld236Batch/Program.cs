@@ -35,9 +35,13 @@ namespace TestHelloWorld236Batch
 
             //StaticVariableConcept.number=23;
             //Console.WriteLine(StaticVariableConcept.number);
-            Console.WriteLine("Please enter number");
-            int input = Convert.ToInt32(Console.ReadLine());
-            ReverseProgram.ReverseNumber(input);
+            //Console.WriteLine("Please enter number");
+            //int input = Convert.ToInt32(Console.ReadLine());
+            //ReverseProgram.ReverseNumber(input);
+
+            //ArrayConcept.TestArray();
+            Console.WriteLine("Please enter any word to make reverse");
+            ReverseProgram.ReverseWord(Console.ReadLine());
             Console.ReadLine();
         }
     }
